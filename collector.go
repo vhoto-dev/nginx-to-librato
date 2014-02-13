@@ -50,6 +50,7 @@ func getMetrics(c conf) []metric {
 		// Wait 1 second in between
 		time.Sleep(1 * time.Second)
 	}
+        return nil
 }
 
 // convertMetrics converts a byte array representing the nginx
